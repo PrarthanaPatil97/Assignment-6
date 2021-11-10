@@ -1,0 +1,45 @@
+body{
+	width:80%;
+	margin-left:10%;
+}
+h2{
+	text-align: center;
+}
+.accordion{
+    list-style-type: none;
+    padding: 0px;
+	width:70%;
+	margin-left:15%;
+}
+.accordion li a{
+    display: block;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    color: red;
+	padding:5px;
+	font-size:20px;
+	font-weight:bold;
+    text-decoration: none;
+}
+
+.accordion li:last-child a{
+    border-bottom: 1px solid #000;
+}
+.accordion li:last-child a.accordion-control.active{
+    border-bottom: 0px;
+}
+.accordion-panel {
+    display: none;
+    padding: 16px;
+	background-color: lightgray;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+	
+	
+}
+.accordion li:last-child .accordion-panel{
+    border-bottom: 1px solid #000;
+}
